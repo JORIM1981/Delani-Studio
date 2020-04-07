@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/*--- HEADER SECTION --- */
+
+header {
+  background-image: url(/assets/backgrounds/h_img.jpg);
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+header p {
+  margin: 0px;
+}
+
+.background-container {
+  text-align: center;
+  padding: 100px;
+}
+
+.background-container p {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 15px;
+  color: white;
+}
+
+.background-container h1 {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 25px;
+  color: white;
+}
+
+.btn-about {
+  padding: 10px 25px;
+  color: white;
+  margin: 50px 50px; 
+
+}
+
+.btn-about:hover {
+
+  color: #85af4b;
+  transition: all 0.5s ease;
+}
