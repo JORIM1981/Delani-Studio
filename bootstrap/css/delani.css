@@ -8,35 +8,36 @@ body {
 
 /*--- HEADER SECTION --- */
 
-header {
+#header {
   background-image: url(/assets/backgrounds/h_img.jpg);
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: relative;
   
 }
 
-header p {
-  margin: 0px;
+#logo {
+  padding-top: 15%;
+  margin-bottom: 10%;
 }
 
-.background-container {
+.container-fluid {
   text-align: center;
   padding: 100px;
 }
 
-.background-container p {
+.container-fluid p {
   text-align: center;
   font-family: Catamaran;
   font-size: 15px;
   color: white;
 }
 
-.background-container h1 {
+.container-fluid h1 {
   text-align: center;
   font-family: Catamaran;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
 }
 
@@ -47,8 +48,96 @@ header p {
 
 }
 
-.btn-about:hover {
+/*--- ABOUT US SECTION --- */
 
-  color: #85af4b;
-  transition: all 0.5s ease;
+.about-us {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
+
+.about-us:after {
+  content: '';
+  display: block;
+  clear: both;
+
+}
+
+.about-us h2 {
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about-us h2:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #85af4b;
+}
+
+.about-us p {
+  color: #111;
+  font-family: Catamaran;
+  font-size: 15px;
+}
+
+/*--- SERVICES SECTION --- */
+
+#services {
+  background-image: url(/assets/backgrounds/s_image.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+#services:after {
+  content: '';
+  display: block;
+  clear: both;
+
+}
+
+#services h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#services h2:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #85af4b;
+}
+
+#services p {
+  color: white;
+  font-family: Catamaran;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
