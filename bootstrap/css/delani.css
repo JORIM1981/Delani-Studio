@@ -10,7 +10,6 @@ body {
 
 #header {
   background-image: url(/assets/backgrounds/h_img.jpg);
-  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: relative;
@@ -18,33 +17,34 @@ body {
 }
 
 #logo {
-  padding-top: 15%;
-  margin-bottom: 10%;
-}
-
-.container-fluid {
-  text-align: center;
-  padding: 100px;
-}
-
-.container-fluid p {
-  text-align: center;
-  font-family: Catamaran;
-  font-size: 15px;
-  color: white;
+  padding-top: 20%;
+  margin-bottom: 5%;
+  
 }
 
 .container-fluid h1 {
   text-align: center;
   font-family: Catamaran;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  
+}
+
+.container-fluid p {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: white;
+  
 }
 
 .btn-about {
-  padding: 10px 25px;
+  padding: 20px 25px;
   color: white;
-  margin: 50px 50px; 
+  margin-top: 60px; 
+  margin-bottom: 30px;
 
 }
 
@@ -68,9 +68,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-family: Catamaran;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
-  margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 .about-us h2:after {
@@ -87,17 +87,16 @@ body {
 .about-us p {
   color: #111;
   font-family: Catamaran;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /*--- SERVICES SECTION --- */
 
 #services {
   background-image: url(/assets/backgrounds/s_image.jpg);
-  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: relative;
   
 }
 
@@ -111,11 +110,11 @@ body {
 #services h2 {
   color: white;
   text-align: center;
-  text-transform: uppercase;
   font-family: Catamaran;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  
 }
 
 #services h2:after {
@@ -132,7 +131,8 @@ body {
 #services p {
   color: white;
   font-family: Catamaran;
-  font-size: 15px;
+  font-size: 20px;
+  
 }
 
 
