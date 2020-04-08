@@ -161,7 +161,6 @@ body {
 }
 
 #portfolio {
-  background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -175,7 +174,6 @@ body {
 }
 
 #portfolio h2 {
-  text-transform: uppercase;
   font-family: Catamaran;
   font-size: 30px;
   color: #111;
