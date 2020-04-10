@@ -55,17 +55,6 @@ body {
   padding-top: 20px;
 }
 
-.about-us h2:after {
-  content: '';
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  margin-left: -40px;
-  left: 50%;
-  bottom: 0px;
-  background-color: #85af4b;
-}
-
 .about-us p {
   color: #111;
   font-family: Catamaran;
@@ -91,17 +80,6 @@ body {
   padding-top: 50px;
 }
 
-#services h2:after {
-  content: '';
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  margin-left: -40px;
-  left: 50%;
-  bottom: 0px;
-  background-color: #85af4b;
-}
-
 #services p {
   color: white;
   font-family: Catamaran;
@@ -114,6 +92,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .what-we:after {
@@ -127,17 +106,6 @@ body {
   font-family: Catamaran; 
   font-size: 30px;
   color: #111;                                        
-}
-
-.what-we h2:after {
-  content: '';
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  margin-left: -40px;
-  left: 50%;
-  bottom: 0px;
-  background-color: #85af4b;
 }
 
 .what-we .we-left, .what-we .we-center, .what-we .we-right {
@@ -158,6 +126,7 @@ body {
 
 .card-deck {
   padding: 1px 4px;
+  
 }
 
 #portfolio {
@@ -182,16 +151,52 @@ body {
   position: relative;
 }
 
-#portfolio h2:after {
-  content: '';
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  margin-left: -40px;
-  left: 50%;
-  bottom: 0px;
-  background-color: #85af4b;
+/*--- CONTACT SECTION --- */
+
+.form-cont input {
+  width: 49%;
+  background: transparent;
 }
+
+.form-cont textarea {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+}
+
+#contact {
+  background-image: url(/assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  background-position: cover;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-cont {
+  text-align: center;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+::placeholder, .con {
+  color: #fff;
+}
+
+::placeholder {
+  font-size: 10px;
+}
+
+.con {
+  padding-bottom: 30px;
+}
+
+
 
 
 
