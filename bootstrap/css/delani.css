@@ -158,6 +158,63 @@ body {
   font-weight: bold;
 }
 
+#portfolio img {
+  width: 100%;
+}
+
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.25s ease;
+}
+
+.card-1 {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 582);
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.ptag {
+  padding: 5% 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 50px 10px;
+  padding-top: 30px;
+  font-weight: bold;
+  border: 4px solid whitesmoke;
+  font-size: 1.1rem;
+  line-height: 90%;
+  margin: 20% 5%;
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-family: Catamaran;
+}
+
+@media screen and (max-width:450px) {
+  .form-cont input {
+      width: 100%;
+      margin-top: 10px;
+  }
+  body {
+      overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  * {
+      font-size: calc(1vw+1vh+.5vmin);
+  }
+}
+
 /*--- CONTACT SECTION --- */
 
 .form-cont input {
