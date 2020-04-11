@@ -186,14 +186,13 @@ body {
 .ptag {
   padding: 5% 0;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.301);
-  padding: 50px 10px;
-  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 100px 10px;
   font-weight: bold;
   border: 4px solid whitesmoke;
   font-size: 1.1rem;
   line-height: 90%;
-  margin: 20% 5%;
+  margin: 5% 5%;
   overflow: hidden;
   letter-spacing: 2px;
   font-family: Catamaran;
