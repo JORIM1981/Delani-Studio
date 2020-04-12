@@ -1,6 +1,6 @@
 // WHAT WE DO SECTION
 
-$('.left','.center','.right').click(function() {
+$('.what').click(function() {
   $(this).children('.hide').slideToggle(1200);
   $(this).children('.show').toggle(1500);
 });

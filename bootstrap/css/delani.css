@@ -89,25 +89,24 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
   margin-top: 10px;
-   
 }
 
 /*--- WHAT WE DO SECTION --- */
 
-.what-we {
+.description {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.what-we:after {
+.description:after {
   content: '';
   display: block;
   clear: both;
 }
 
-.what-we h2 {
+.description h2 {
   position: relative;
   font-family: Catamaran; 
   font-size: 30px;
@@ -115,7 +114,14 @@ body {
   font-weight: bold;                                        
 }
 
-.what-we .we-left, .what-we .we-center, .what-we .we-right {
+.what h5 {
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
+  font-weight: bold;
+}
+
+.what {
   width: 33.3333333333%;
   display: inline-block;
   padding-left: 2%;
@@ -127,6 +133,12 @@ body {
 
 .hide {
   display: none;
+}
+
+.what p {
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
 }
 
 /*--- PORTFOLIO SECTION --- */
@@ -145,7 +157,6 @@ body {
   content: '';
   display: block;
   clear: both;
-
 }
 
 #portfolio h2 {
@@ -184,12 +195,11 @@ body {
 }
 
 .ptag {
-  padding: 5% 0;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 100px 10px;
   font-weight: bold;
-  border: 4px solid whitesmoke;
+  border: 3px solid whitesmoke;
   font-size: 1.1rem;
   line-height: 90%;
   margin: 5% 5%;
