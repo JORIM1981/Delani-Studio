@@ -89,6 +89,7 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
   margin-top: 10px;
+
 }
 
 /*--- WHAT WE DO SECTION --- */
@@ -240,7 +241,7 @@ body {
   margin-bottom: 120px;
 }
 
-#contact {
+#mc_embed_signup {
   background-image: url(/assets/backgrounds/c_image.jpg);
   background-size: cover;
   background-position: cover;
