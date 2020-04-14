@@ -257,6 +257,7 @@ body {
   max-width: 100%;
   left: 50%;
   transform: translate(-50%);
+  padding-bottom: 30px;
 }
 
 ::placeholder {
@@ -266,7 +267,7 @@ body {
 }
 
 .form-contact h2 {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   font-weight: bold;
   color: #fff;
   font-family: Catamaran;
