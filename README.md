@@ -5,7 +5,7 @@
 
 Project to create a landing page for a fictional design studio. The site illustrates what projects are done by the design studio. It includes a portfolio of some of their projects, and a detailed description of what they do from inception to completion of the project.The website incorporates bootstrap styling, jQuery effects and also an embedded form from mail chimp API to track all the emails and messages from the site users. 
 
-![Delani-Studio]()
+![Delani-Studio](https://github.com/JORIM1981/Delani-Studio/blob/master/assets/Screenshot.png)
 ## Technologies Used
 
 - HTML 
