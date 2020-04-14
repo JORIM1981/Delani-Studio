@@ -10,3 +10,17 @@ $('.what').click(function() {
 $(".card").hover(function() {
   $(this).children(".card-1").fadeToggle(1000,"linear");
 });
+
+//CONTACT SECTION
+
+$("button").click(function (delani) {
+  var client = document.getElementById('nameDetail').value;
+  alert(' Dear ' + ' esteemed ' + client + ' we have received your message. ' + ' Thank you for reaching out to us.');
+  delani.preventDefault();
+});
+
+$("button").on('click', function () {
+  $('form').each(function () {
+    this.reset();
+  });
+});

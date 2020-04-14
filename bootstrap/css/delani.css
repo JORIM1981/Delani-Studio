@@ -227,21 +227,19 @@ body {
 
 /*--- CONTACT SECTION --- */
 
-.form-cont input {
+.form-contact input  {
   width: 47%;
   background: transparent;
-  margin: 15px 10px;
-  
+  margin: 10px 5px;
 }
 
-.form-cont textarea {
-  margin-top: 20px;
+.form-contact textarea  {
+  margin-top: 10px;
   width: 100%;
   background: transparent;
-  margin-bottom: 120px;
 }
 
-#mc_embed_signup {
+#contact {
   background-image: url(/assets/backgrounds/c_image.jpg);
   background-size: cover;
   background-position: cover;
@@ -252,27 +250,27 @@ body {
   max-width: 100%;
 }
 
-.form-cont {
+.form-contact {
   text-align: center;
   position: relative;
-  width: 1000px;
+  width: 900px;
   max-width: 100%;
   left: 50%;
   transform: translate(-50%);
 }
 
-::placeholder, .con {
-  color: #fff;
-}
-
 ::placeholder {
   font-size: 15px;
   padding-left: 5px;
+  color: #fff;
 }
 
-.con {
+.form-contact h2 {
   padding-bottom: 30px;
   font-weight: bold;
+  color: #fff;
+  font-family: Catamaran;
+  font-size: 30px;
 }
 
 /*--- SOCIAL LINKS SECTION --- */
