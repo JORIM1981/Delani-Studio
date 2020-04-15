@@ -9,7 +9,7 @@ body {
 /*--- HEADER SECTION --- */
 
 #header {
-  background-image: url(/backgrounds/h_img.jpg);
+  background-image: url(./backgrounds/h_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: relative;
@@ -67,7 +67,7 @@ body {
 /*--- SERVICES SECTION --- */
 
 #services {
-  background-image: url(/backgrounds/s_image.jpg);
+  background-image: url(./backgrounds/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: relative;
@@ -240,7 +240,7 @@ body {
 }
 
 #contact {
-  background-image: url(/backgrounds/c_image.jpg);
+  background-image: url(./backgrounds/c_image.jpg);
   background-size: cover;
   background-position: cover;
   padding-top: 100px;
